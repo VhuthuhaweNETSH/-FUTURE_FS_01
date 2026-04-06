@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Vhuthuhawe Netshilaphala - IT in Business Systems Student & Full Stack Developer Portfolio">
+  <meta name="keywords" content="portfolio, full stack developer, intern, FutureInterns, Vhuthuhawe">
+  <meta name="author" content="Vhuthuhawe Netshilaphala">
+  <title>Vhuthuhawe Netshilaphala | Portfolio</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="animated-bg"></div>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">VN.dev</div>
+        <div class="mobile-menu" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="container hero">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Vhuthuhawe<br>Netshilaphala</span><br>IT & Business Systems Student</h1>
+          <p>Passionate about building systems that don't just work , they solve the right problems. Currently gaining hands-on experience as an intern at FutureInterns.</p>
+          <a href="#contact" class="btn">Get in touch <i class="fas fa-arrow-right"></i></a>
+          <a href="#about" class="btn btn-outline" style="margin-left: 1rem;">About Me</a>
+        </div>
+        <div class="hero-image">
+          <img src="vhuthuH.prof.jpeg" alt="Vhuthuhawe Netshilaphala">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-card">
+      <i class="fas fa-quote-left quote-icon"></i>
+      <div class="about-text">
+        <p style="font-size: 1.3rem; color: #eb258b;"><strong>I build systems that don't just work , they solve the right problems.</strong></p>
+      </div>
+      <div class="about-text">
+        <p>I'm a final-year IT in Business Systems student with a strong foundation in full stack development and a sharp interest in business analysis. I don't just focus on writing code ,I focus on understanding the problem first, then building solutions that actually make sense.</p>
+      </div>
+      <div class="about-text">
+        <p>I work across both front-end and back-end, developing responsive interfaces, structuring databases and ensuring systems run smoothly end-to-end. At the same time, my business analysis mindset allows me to break down requirements, identify gaps and design solutions that align with real business needs.</p>
+      </div>
+      <div class="about-text">
+        <p>This combination allows me to approach development differently,not just as a developer, but as someone who understands the "why" behind every feature.</p>
+      </div>
+      <div class="about-text">
+        <p>I'm currently building my skills through practical projects and real-world learning, with the goal of becoming a professional who can bridge the gap between business and technology while delivering efficient, scalable solutions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div id="skillsContainer"></div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <div class="container">
+        <h2 class="section-title">Professional Resume</h2>
+        
+        <!-- Current Internship -->
+        <div class="resume-container">
+          <h3><i class="fas fa-briefcase"></i> Current Position</h3>
+          <div class="intern-card">
+            <span class="intern-badge"><i class="fas fa-code"></i> Internship</span>
+            <h3>Full Stack Development Intern</h3>
+            <div class="intern-date"><i class="fas fa-calendar-alt"></i> March 2026 – Present</div>
+            <p class="intern-description">Currently interning at <strong>FutureInterns</strong>, gaining hands-on experience in full stack web development. Working with modern technologies like React.js, Node.js, and MongoDB to build real-world applications. Collaborating with senior developers to enhance coding skills, implement best practices, and contribute to meaningful projects.</p>
+          </div>
+        </div>
+
+        <!-- Work Integrated Learning -->
+        <div class="resume-container" style="margin-top: 2rem;">
+          <h3><i class="fas fa-chalkboard-user"></i> Work Integrated Learning (WIL)</h3>
+          <div class="wil-card">
+            <span class="wil-badge"><i class="fas fa-award"></i> WIL - Distinction</span>
+            <ul style="margin-top: 1rem; margin-left: 1.5rem; line-height: 1.8;">
+              <li>Applied theoretical IT and business concepts in a real-world workplace environment</li>
+              <li>Assisted with basic systems analysis and documentation</li>
+              <li>Demonstrated professionalism, accountability, and effective communication</li>
+              <li>Worked collaboratively within a team to meet deadlines and organizational objectives</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education Section with Badge -->
+        <div style="margin-top: 2rem;">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          <div class="education-grid" id="educationList"></div>
+          
+          <!-- Microsoft Hackathon Badge  -->
+<div class="badge-container">
+  <div class="badge-card">
+    <img src="Hackathon.png" alt="Microsoft Hackathon Badge" class="badge-image">
+    <div class="badge-info">
+      <h4>Microsoft EMEA Partner Hackathon</h4>
+      <p>Participant – Hack-in-a-Day Event | March 2026</p>
+      <a href="https://www.credly.com/badges/0387a3c2-79ee-4543-bd4a-ae6e0ae07383/public_url" target="_blank" class="badge-link">
+        View Badge <i class="fas fa-external-link-alt"></i>
+      </a>
+    </div>
+  </div>
+</div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <button id="downloadResumeBtn" class="btn"><i class="fas fa-download"></i> View Full Resume</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p style="margin: 1rem 0;">I'm open to opportunities, collaborations or just a chat!</p>
+            <p><i class="fas fa-envelope"></i> thuvhu45@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i> 081 091 1353</p>
+            <div class="social-links" style="margin-top: 1.5rem;">
+              <a href="https://github.com/VhuthuhaweNETSH/-FUTURE_FS_01.git" target="_blank" style="margin-right: 1rem; color:#2563eb; font-size:1.5rem; display: inline-block;"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/vhuthuhawe-netshilaphala-746b44320" target="_blank" style="margin-right: 1rem; color:#2563eb; font-size:1.5rem; display: inline-block;"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Email Address" required>
+              </div>
+              <div class="form-group">
+                <textarea rows="4" id="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn" id="submitBtn">Send Message <i class="fas fa-paper-plane"></i></button>
+              <div id="formStatus" class="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Vhuthuhawe Netshilaphala — IT in Business Systems Student | Intern at FutureInterns</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
