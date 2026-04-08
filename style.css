@@ -582,7 +582,7 @@ footer {
   object-fit: cover;
 }
 
-/* Mobile responsive - stacks on phones */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .hero-wrapper {
     flex-direction: column-reverse;
